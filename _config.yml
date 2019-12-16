@@ -28,12 +28,8 @@ projects:
     projects:
     # - repo-name
 
- #social_media:
-  # behance: your_username
-  # dribbble: your_username
-  # facebook: your_username
-  # hackerrank: your_username
-   #instagram: ajlord18
+ social_media:
+    instagram: ajlord18
   # keybase: your_username
    #linkedin: ajsanjoaquin
   # mastodon: your_username
