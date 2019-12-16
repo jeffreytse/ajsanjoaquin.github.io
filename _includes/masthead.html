@@ -12,6 +12,12 @@
 
 {% if include.metadata %}
   <div class="f4 mb-6">
+    {% if user.location %}
+      <div class="{{ metadata_styles }} {% if site.style == 'dark' %}text-white{% endif %}">
+        {% octicon location height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:Location %}
+        {{ user.location }}
+      </div>
+    {% endif %}
     {% if user.name %}
       <div class="{{ metadata_styles }}">
         {% octicon mark-github height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:GitHub %}
@@ -26,12 +32,6 @@
         <a href="mailto:{{ user.email }}" {% if site.style == 'dark' %}class="text-white"{% endif %}>
           {{ user.email }}
         </a>
-      </div>
-    {% endif %}
-    {% if user.location %}
-      <div class="{{ metadata_styles }} {% if site.style == 'dark' %}text-white{% endif %}">
-        {% octicon location height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:Location %}
-        {{ user.location }}
       </div>
     {% endif %}
     <div class="{{ metadata_styles }} {% if site.style == 'dark' %}text-white{% endif %}">
