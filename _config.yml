@@ -27,22 +27,6 @@ projects:
     forks: true
     projects:
     # - repo-name
-
- social_media:
-  #  instagram: ajlord18
-  # keybase: your_username
-   linkedin: ajsanjoaquin
-  # mastodon: your_username
-   #medium: ajsanjoaquin
-  # stackoverflow: your_user_id
-  # telegram: your_username
-  # twitter: your_username
-  # unsplash: your_username
-  # vk: your_username
-  # website: http://your_website_url
-  # youtube: your_username
-
-
 topics:
   - name: Historical Trivia
     web_url: https://en.wikipedia.org/wiki/Fall_of_the_Western_Roman_Empire
