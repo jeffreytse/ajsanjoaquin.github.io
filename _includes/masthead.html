@@ -34,6 +34,14 @@
         {{ user.location }}
       </div>
     {% endif %}
+    <div class="{{ metadata_styles }} {% if site.style == 'dark' %}text-white{% endif %}">
+      {% octicon telescope height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:insta %}
+      <a href="https://www.instagram.com/ajlord18/">Instagram</a>
+      </div>
+      <div class="{{ metadata_styles }} {% if site.style == 'dark' %}text-white{% endif %}">
+        {% octicon briefcase height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:insta %}
+        <a href="https://www.linkedin.com/in/ajsanjoaquin/">Linkedin Profile</a>
+        </div>
     {% if site.social_media %}
       <div class="d-flex flex-wrap flex-items-start {% if site.layout == 'stacked' %}flex-justify-center mt-1 mt-md-3{% endif %}">
         {% for account in site.social_media %}
