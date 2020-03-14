@@ -28,11 +28,13 @@ projects:
     projects:
     # - repo-name
 topics:
-  - name: Historical Trivia
-    web_url: https://en.wikipedia.org/wiki/Fall_of_the_Western_Roman_Empire
+  - name: Historical Trivia (I dabbled a bit in High School)
+    web_url: https://globalnation.inquirer.net/142283/ph-places-5th-in-intl-history-olympiad-medal-count
     image_url: https://img-9gag-fun.9cache.com/photo/amBypO6_700bwp.webp
 
   - name: Cycling
+    web_url: https://www.strava.com/athletes/50452660
+    image_url: https://i.imgur.com/prQ72fc.jpg
 
   - name: Philosophy
     web_url: https://www.iep.utm.edu/consciou/
