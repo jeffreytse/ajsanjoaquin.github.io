@@ -2,8 +2,9 @@
 layout: full-width
 title: About
 ---
-
-[!meh](.assets/img/meh.jpg "Ayrton San Joaquin")
+<p align="center">
+  <img width="37.5%" src="../assets/img/dp.jpg">
+</p>
 
 Hey! Welcome to my website. I enjoy cycling, and I have mostly exhausted Singapore's cycling routes. As of 07/2021, I just got into Geocaching, and I will probably be off exploring whenever I get the chance. At the moment, I am probably just being genuinely curious about the world and doing something fun (or boring). 
 
