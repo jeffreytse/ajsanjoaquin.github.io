@@ -3,3 +3,13 @@ _site
 .jekyll-cache
 .DS\_Store
 config.codekit
+._posts\mathjax.md
+._posts\style.md
+.aux
+.gz
+.log
+.out
+.synctex
+.cls
+/fonts
+.sty
