@@ -1,0 +1,176 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Configuration
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Themes: Awesome-CV
+\documentclass[]{awesome-cv}
+\usepackage{textcomp}
+\hypersetup{%
+  colorlinks=true,% hyperlinks will be coloured
+  linkbordercolor=red,% hyperlink border will be red
+}
+%%% Override a directory location for fonts(default: 'fonts/')
+\fontdir[fonts/]
+
+%%% Configure a directory location for sections
+\newcommand*{\sectiondir}{resume/}
+
+%%% Override color
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+%% Color for highlight
+% Define your custom color if you don't like awesome colors
+\colorlet{awesome}{awesome-red}
+%\definecolor{awesome}{HTML}{CA63A8}
+%% Colors for text
+%\definecolor{darktext}{HTML}{414141}
+%\definecolor{text}{HTML}{414141}
+%\definecolor{graytext}{HTML}{414141}
+%\definecolor{lighttext}{HTML}{414141}
+
+%%% Override a separator for social informations in header(default: ' | ')
+%\headersocialsep[\quad\textbar\quad]
+    \begin{document}
+    
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Profile
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+	\headerfirstnamestyle{\textbf{Ayrton}} \ \headerlastnamestyle{San Joaquin} \\
+	{\faEnvelope\ ayrton@u.yale-nus.edu.sg} | {\faMobile\ +65 881475 88} | {\faMapMarker\ Singapore} | {\faLinkedinSquare\ \href{https://www.linkedin.com/in/ajsanjoaquin/}{ajsanjoaquin}}| {\faLink\ \href{http://ajsanjoaquin.github.io/}{ajsanjoaquin.github.io}}
+\end{center}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Education
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Education}
+\begin{cventries}
+	\cventry
+	{Bachelor of Science (Honors) in Data Science, Minor in Philosophy}
+	{Yale-NUS College}
+	{Singapore}
+	{August 2018 – May 2022}
+	{Awarded Scholarship to attend Full-time}
+	\cventry
+	{Certificate in Machine Learning (\href{https://www.coursera.org/account/accomplishments/verify/WFK75DQC9N5Q}{Credential ID: WFK75DQC9N5Q})}
+	{Coursera
+	\textcolor{white}{Masters , Doctorate, AI, Computer Vision}}
+	{}
+	{July 2019}
+	{}
+\end{cventries}
+\vspace{-8mm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Experience
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Experience}
+\begin{cventries}
+	\cventry
+	{Deepfake Detection Research Intern}
+	{NUS-Tsinghua Center For Extreme Search (NeXT++)}
+	{Singapore}
+	{May 2020 – August 2020}
+	{\begin{cvitems}
+		\item {Preprocessed ~200,000 images from FaceForensics++ Dataset and trained various detector models (Based on EfficientNet and Xception Net) using a High Performance Computing Cluster}
+		\item {Read and adapted various robustness strategies against adversarial noises (e.g. Adversarial Training, Randomized Smoothing)}
+		\end{cvitems}}
+	\cventry
+	{Deep Learning Engineer (Volunteer)}
+	{Arterys (Freelance)}
+	{San Francisco, United States}
+	{March 2020 – June 2020}
+	{\begin{cvitems}
+		\item {Created a COVID-19 Pneumonia classifier four days after pandemic declaration, and developed it on an IBM Power9 System provided by A.I. Singapore.}
+		\item {Contacted by Arterys, and \href{https://marketplace.arterys.com/model/ayrtoncovidXR}{Deployed model in the Arterys platform}, 
+		alongside models from NVIDIA and Ping An Technology, for use by American hospitals and researchers.}
+		\end{cvitems}}
+\end{cventries}
+
+\vspace{-5mm}
+\cvsection{Skills}
+\vspace{-3mm}
+\begin{cventries}
+	\cventry
+	{}
+	{\def\arraystretch{1.15}{\begin{tabular}{ l l }
+		Programming Languages:  & {\skill{ Python, Java, R}} \\
+		Machine Learning in Python:  & {\skill{ Pytorch, Pytorch Lightning, NumPy, Sickit-Learn, Fastai}} \\
+		Data Management:  & {\skill{ Pandas, SQL, MS Excel}} \\
+		Application Deployment \& Version Control:  & {\skill{ Docker, Google Cloud, Git, Singularity}} \\
+		\end{tabular}}}
+	{}
+	{}
+	{}
+\end{cventries}
+
+\vspace{-10mm}
+\cvsection{Open-Source Projects \& Contributions}
+\begin{cventries}
+	\cventry
+	{}
+	{\href{https://github.com/ajsanjoaquin/COVID-19-Scanner}{COVID-19 Pneumonia Classifier for Diagnosis Triage}}
+	{Fastai, Pytorch, Pandas, Docker}
+	{}
+	{• Trained a Resnet-34 Convolutional Neural Network (CNN) on \textasciitilde{} 26,000 images with Resampling to detect Pneumonia caused by COVID-19 on xray scans ultimately to triage patients for urgent diagnosis. AUROC for labels "covid", "opacity", "nofinding" were at 99.97\%, 92.64\%, and 92.73\%, respectively.}
+
+	\vspace{-1mm}
+	\cventry
+	{}
+	{\href{https://github.com/ajsanjoaquin/mPerturb}{Explaining Neural Networks with Meaningful Perturbations}}
+	{Pytorch, NumPy}
+	{}
+	{• Implemented the algorithm described in \textit{Explanations of Black Boxes by Meaningful Perturbation (Fong, et. al., 2018)}, which perturbs a given image by masking the regions essential for an Image classifier to make a prediction.}
+	
+	\vspace{-1mm}
+	\cventry
+	{}
+	{\href{https://github.com/mauriceccy/scobra/commits?author=ajsanjoaquin}{ScobraPy Plant Metabolic Modelling}}
+	{}
+	{}
+	{• Packager and Primary maintainer on \href{https://pypi.org/project/scobra/}{PyPI}. Contributed bug fixes, developed the tutorial, and updated documentation.}
+
+	\vspace{-2mm}
+	\cventry
+	{}
+	{\href{https://github.com/pytorch/pytorch/commits?author=ajsanjoaquin}{Pytorch}}
+	{}
+	{}
+	{• Previously implemented fixes for the parallelization and graph modules. Currently working on minor bug fixes.}
+	
+	\vspace{-4mm}
+\end{cventries}
+\cvsection{Publications}
+\begin{cvhonors}
+	\cvhonor
+	{\href{https://towardsdatascience.com/lets-keep-explainable-methods-practical-and-relevant-92e963ce3f64}{Let’s Keep Explainable Methods Practical and Relevant}}
+	{\textit{Towards Data Science}}
+	{}
+	{February 2021}
+	\cvhonor
+	{\href{https://towardsdatascience.com/using-deep-learning-to-detect-ncov-19-from-x-ray-images-1a89701d1acd}{Using Deep Learning to Detect Pneumonia caused by COVID-19}}
+	{\textit{Towards Data Science}}
+	{}
+	{March 2020}
+	\cvhonor
+	{\href{https://medium.com/swlh/three-things-i-learned-from-creating-fake-faces-using-ai-fc4c95282a37}{Three Things I learned from Creating Fake Faces Using A.I.}}
+	{\textit{The Startup}}
+	{}
+	{January 2020}
+\end{cvhonors}
+\vspace{-20mm}
+\ 
+\end{document}
