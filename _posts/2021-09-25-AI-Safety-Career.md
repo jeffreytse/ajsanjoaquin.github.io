@@ -13,7 +13,7 @@ Progress in AI will explode in the coming decades as more effort and resources a
 In this post, I will provide my current strategy of doing safety work given these constraints. Note that this is a strategy informed by my current knowledge of AI. Discoveries in ML, especially if it leads to certain research areas stagnating, can render parts of this post obsolete, and so my priorities in safety may change over time. Take this with a grain of salt.
 
 ![](../assets/img/ai-safe/image2.png)
-{%marginnote '1' 'We are trying to minimize our unknown unknowns for AI Safety, but the current paradigm in ML isn\'t decreasing it fast enough.' %}
+{%marginnote '1' 'We are trying to minimize our unknown unknowns for AI Safety, but the current paradigm in ML isn′t decreasing it fast enough.' %}
 
 
 Chris Olah from OpenAI argues that a paradigm shift focusing on model interpretability in current machine learning research can lead to accelerated progress in AGI Safety. Many areas of research are focused on improving performance metrics (e.g. accuracy, ROC) and deploying narrow-AI, which are limited to human-specified tasks, on different domains (e.g. healthcare, construction, automating corporate work). However, we are often unaware of the flaws and failure modes of these models, often finding it at deployment, which can cause grave social, economic, and political costs, even death (e.g. Herzberg’s death was caused by a semi-autonomous Uber vehicle in 2018 https://www.bbc.com/news/technology-54175359). 
