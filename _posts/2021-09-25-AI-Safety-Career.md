@@ -6,14 +6,13 @@ categories: post
 ---
 ![AI take-off will happen](../assets/img/ai-safe/image1.png "")
 {%marginnote '0' 'It is very easy to make wrong conclusions if one does not look at the bigger picture.' %}
-{%marginnote '1' 'Author’s impression of the doctors dancing at Sentosa that night (Image taken from Musical TARU)' %}
 
 Progress in AI will explode in the coming decades as more effort and resources are poured for its advance in the same capitalist system that allowed GDP per capita to rise at a rate never before seen in human history within the past century. With an increase in AI capabilities comes an increase with its dangers. Artificial General Intelligence (AGI) Safety considers the impacts of AI in the long-term (decades to centuries) of AI models capable of generalizing to domains not specified in training. However, AGI Safety (safety) is still a niche topic within current machine learning research. If it does get treated seriously as a research area, it is often limited to extremely well-funded organizations based in Western countries (e.g. OpenAI, DeepMind in the US, UK, respectively). **How can I, an undergrad based in Asia without any connections to any of these organizations, possibly do technical work in AI Safety?**
 <!--more--> 
 In this post, I will provide my current strategy of doing safety work given these constraints. Note that this is a strategy informed by my current knowledge of AI. Discoveries in ML, especially if it leads to certain research areas stagnating, can render parts of this post obsolete, and so my priorities in safety may change over time. Take this with a grain of salt.
 
 ![](../assets/img/ai-safe/image2.png)
-{%marginnote '1' 'We are trying to minimize our unknown unknowns for AI Safety, but the current paradigm in ML isn′t decreasing it fast enough.' %}
+{%marginnote '1' 'We are trying to minimize our unknown unknowns for AI Safety, but the current paradigm in ML isn′t decreasing it fast enough.'%}
 
 
 Chris Olah from OpenAI argues that a paradigm shift focusing on model interpretability in current machine learning research can lead to accelerated progress in AGI Safety. Many areas of research are focused on improving performance metrics (e.g. accuracy, ROC) and deploying narrow-AI, which are limited to human-specified tasks, on different domains (e.g. healthcare, construction, automating corporate work). However, we are often unaware of the flaws and failure modes of these models, often finding it at deployment, which can cause grave social, economic, and political costs, even death (e.g. Herzberg’s death was caused by a semi-autonomous Uber vehicle in 2018 https://www.bbc.com/news/technology-54175359). 
@@ -33,22 +32,22 @@ Besides the motivation, good robustness and fairness research leads to a deeper 
 
 
 ![](../assets/img/ai-safe/image4.png)
-{%marginnote '2' 'Even if reliable ML currently only has narrowly-defined goals, these goals will generalize as the field progresses, and we can couple this with positive feedback from improving ML interpretability methods.' %}
+{%marginnote '2' 'Even if reliable ML currently only has narrowly-defined goals, these goals will generalize as the field progresses, and we can couple this with positive feedback from improving ML interpretability methods.'%}
 
 One limitation is that the alignment of the model is on very specific goals (threat model) that can be formally defined. For example, numerous gradient-based robustness attacks and defences rely on a stringent p-norm distance specification which in practice is an unrealistic assumption. But I think as with safety, Reliable ML is still a budding field and we can expect to see more sophisticated and realistic threat models soon. The advantage of Reliable ML in this case over safety is that it is directly applicable to AI now and therefore an ecosystem exists for funding and support. 
 
 Can we expect a threat model that tackles hard-to-formalize objectives, like a model being reliable in various environments? I think we can as models become more interpretable and therefore allow us to build more advanced AI. Using the gradient-based robustness example, researchers are moving to different distance specifications such as Wasserstein distance that allows a “global” modification of an image compared to the pixel-based modification by the former, which can make for a more sophisticated fooling of both the AI and humans, and therefore a better adversarial setting.
 
-
 Another limitation would be that robustness and fairness research can create methods that are impractical for reliability. Some can be too limiting and introduce fundamental tradeoffs with performance, but I believe this is a step towards finding better corrections, or rethinking how we design models so they can be more reliable. Both ways focus on understanding the model. A good example would be provably robust classifiers as a defence against adversarial examples. While they provide robustness guarantees within a specified area in the input space, this area is always limited and degrades performance significantly that renders them impractical for many applications. There is a tradeoff between area guaranteed to be robust and model accuracy. 
+
 It turns out that this method moves the decision boundary of a classifier to make a larger area robust, and it can be exploited to create new attack methods! While this can create an arms-race scenario, we have a new understanding of the limitations of the classifier and shift how we view these attacks and defences, such as by rethinking how we fundamentally train our classifiers to escape this race. Regardless, fixing and breaking in a controlled environment makes us discover limitations and dangers we can avoid.
 
 ![](../assets/img/ai-safe/image5.png)
 {%marginnote '3' 'Sure, our paradigm may be wrong, but at least it’s within a lab. Fixing and breaking in a controlled environment makes us discover limitations and dangers we can avoid.'}
 
-{%marginnote '4' 'Disclaimer: I know that arms-races are likely to happen. However, I view them as a mechanism to signal where society should focus itself on / avoid. For example with deep fakes, the threat of an arms race requires us to rethink data ownership, in which a technical solution (e.x. blockchain) is necessary but insufficient'.}
+{%marginnote '4' 'Disclaimer: I know that arms-races are likely to happen. However, I view them as a mechanism to signal where society should focus itself on / avoid. For example with deep fakes, the threat of an arms race requires us to rethink data ownership, in which a technical solution (e.x. blockchain) is necessary but insufficient.'}
 
-{%marginnote '5' 'So can we change our efforts fast enough? I hope so'}
+{%marginnote '5' 'So can we change our efforts fast enough? I hope so.'}
 
 From a capabilities perspective, an increase in our understanding of interpretable ML can shift focus again to increasing performance more rather than safety itself. For example, if there is a fundamental tradeoff between performance and desired behavior X, maybe people will prefer performance and thus keep the tradeoff there. This seems likely at first given that a market economy emphasizes competitiveness and thus organizations may prioritize performance over safety to some extent if it means keeping them competitive. However, this prioritization should decrease once the large costs of deploying dangerous advanced AI becomes clearer.
 
