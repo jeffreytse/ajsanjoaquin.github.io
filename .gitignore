@@ -5,11 +5,28 @@ _site
 config.codekit
 ._posts\mathjax.md
 ._posts\style.md
-.aux
 .gz
-.log
-.out
 .synctex
 .cls
 /fonts
 .sty
+
+
+## Core latex/pdflatex auxiliary files:
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+.*.lb
+
+## Intermediate documents:
+*.dvi
+*.xdv
+*-converted-to.*
