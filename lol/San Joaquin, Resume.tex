@@ -22,7 +22,7 @@
 \usepackage{textcomp}
 \hypersetup{%
   colorlinks=true,% hyperlinks will be coloured
-  linkbordercolor=red,% hyperlink border will be red
+  linkbordercolor=blue,% hyperlink border will be red
 }
 %%% Override a directory location for fonts(default: 'fonts/')
 \fontdir[fonts/]
@@ -45,6 +45,22 @@
 
 %%% Override a separator for social informations in header(default: ' | ')
 %\headersocialsep[\quad\textbar\quad]
+\renewcommand*{\cventry}[5]{%
+  \vspace{-2.0mm}
+  \setlength\tabcolsep{0pt}
+  \setlength{\extrarowheight}{0pt}
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 4.5cm} R{4.5cm}}
+    \ifempty{#2#3}
+      {\ifempty{#1#4}{}{\entrypositionstyle{#1} & \entrydatestyle{#4} \\}}
+      {\entrytitlestyle{#2} & \entrylocationstyle{#3} 
+       \ifempty{#1#4}{}{\\\entrypositionstyle{#1} & \entrydatestyle{#4}}}
+    \ifempty{#5}{}{\\\multicolumn{2}{L{\textwidth}}{\descriptionstyle{#5}}}
+  \end{tabular*}%
+  \par % <============================================================== missing in class
+}
+
+
+
 \begin{document}
     
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -52,7 +68,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{center}
 	\headerfirstnamestyle{\textbf{Ayrton}} \ \headerlastnamestyle{San Joaquin} \\
-	{\faEnvelope\ ayrton.sanjoaquin@yale.edu} | {\faMobile\ +65 88147588} | {\faMapMarker\ Singapore} | {\faLinkedinSquare\ \href{https://www.linkedin.com/in/ajsanjoaquin/}{ajsanjoaquin}}| {\faLink\ \href{http://ajsanjoaquin.github.io/}{ajsanjoaquin.github.io}}
+	{\faEnvelope\ ayrton.sanjoaquin@yale.edu} | \iffalse {\faMobile\ +65 88147588} | \fi{\faMapMarker\ Singapore} | {\faLinkedinSquare\ \href{https://www.linkedin.com/in/ajsanjoaquin/}{ajsanjoaquin}}| {\faLink\ \href{http://ajsanjoaquin.github.io/}{ajsanjoaquin.github.io}}
 \end{center}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     Education
@@ -76,10 +92,10 @@
 	{Undergraduate Researcher}
 	{Data Protection and Trustworthy Machine Learning Lab, NUS}
 	{Singapore}
-	{May 2021 - Present}
+	{May 2021 - August 2021}
 	{\begin{cvitems}
 		\item {Pitched and led a project to analyze \href{https://arxiv.org/abs/2101.04898}{Unlearnable Data} as a data protection method. Paper to be refined in a workshop.}
-		\item {Collaborating with Google Brain on privacy attack research for my bachelor's thesis and advised by Prof. Reza Shokri}
+		\item {Collaborating with Google Brain on privacy attack research for my bachelor's thesis.}
 	\end{cvitems}}
 	\cventry
 	{Deepfake Detection Research Intern}
@@ -87,39 +103,21 @@
 	{Singapore}
 	{May 2020 - August 2020}
 	{\begin{cvitems}
-		\item {Processed $\sim$200,000 images from FaceForensics++ Dataset and trained various detector models (Based on EfficientNet and Xception Net) using a High Performance Computing Cluster}
 		\item {Read and adapted various robustness strategies against adversarial noises (e.g. Adversarial Training, Randomized Smoothing)}
 	\end{cvitems}}
 	\cventry
-	{Deep Learning Engineer (Volunteer)}
+	{Deep Learning Engineer}
 	{Arterys (Freelance)}
 	{San Francisco, United States}
 	{March 2020 - June 2020}
 	{\begin{cvitems}
-		\item {Created a COVID-19 Pneumonia classifier four days after pandemic declaration, and developed it on an IBM Power9 System provided by A.I. Singapore.}
+		\item {Created a COVID-19 Pneumonia classifier four days after pandemic declaration in collaboration with A.I. Singapore.}
 		\item {Contacted by Arterys, and \href{https://marketplace.arterys.com/model/ayrtoncovidXR}{Deployed model in the Arterys platform}, 
 		alongside models from NVIDIA and Ping An Technology, for use by American hospitals and researchers.}
 	\end{cvitems}}
 \end{cventries}
 
-\vspace{-5mm}
-\cvsection{Skills}
-\vspace{-3mm}
-\begin{cventries}
-	\cventry
-	{}
-	{\def\arraystretch{1.15}{\begin{tabular}{ l l }
-		Programming Languages:  & {\skill{ Python, Java, R}} \\
-		Machine Learning in Python:  & {\skill{ Pytorch, Pytorch Lightning, NumPy, Sickit-Learn, Tensorflow, Keras, Jax}} \\
-		Data Management:  & {\skill{ Pandas, SQL, MS Excel}} \\
-		Application Deployment \& Version Control:  & {\skill{ Docker, Google Cloud, Git, Singularity}} \\
-		\end{tabular}}}
-	{}
-	{}
-	{}
-\end{cventries}
-
-\vspace{-10mm}
+\vspace{1mm}
 \cvsection{Open-Source Projects \& Contributions}
 \begin{cventries}
 	\cventry
@@ -133,7 +131,7 @@
 	\cventry
 	{}
 	{\href{https://github.com/ajsanjoaquin/mPerturb}{Explaining Neural Networks with Meaningful Perturbations}}
-	{Pytorch, NumPy}
+	{}
 	{}
 	{• For explaining an image classifier's prediction, I implemented the algorithm described in \textit{Explanations of Black Boxes by Meaningful Perturbation (Fong, et. al., 2018)}.}
 	
@@ -141,9 +139,9 @@
 	\cventry
 	{}
 	{\href{https://github.com/ajsanjoaquin/COVID-19-Scanner}{COVID-19 Pneumonia Classifier for Diagnosis Triage}}
-	{Fastai, Pytorch, Pandas, Docker}
 	{}
-	{• Trained a Resnet-34 Convolutional Neural Network (CNN) on \textasciitilde{} 26,000 images with Resampling to detect Pneumonia caused by COVID-19 on xray scans ultimately to triage patients for urgent diagnosis. AUROC for labels "covid", "opacity", "nofinding" were at 99.97\%, 92.64\%, and 92.73\%, respectively.}
+	{}
+	{• Trained a Resnet-34 Convolutional Neural Network (CNN) on \textasciitilde{} 26,000 images with Resampling to detect Pneumonia caused by COVID-19 on xray scans ultimately to triage patients for urgent diagnosis.}
 %	\vspace{-2mm}
 %	\cventry
 %	{}
@@ -151,26 +149,50 @@
 %	{}
 %	{}
 %	{• Previously implemented fixes for the parallelization and graph modules. Currently working on minor bug fixes.
-	\vspace{-4mm}
+
 \end{cventries}
+
 \cvsection{Publications}
+*No name indicates first or sole authorship.
 \begin{cvhonors}
 	\cvhonor
-	{\href{https://towardsdatascience.com/lets-keep-explainable-methods-practical-and-relevant-92e963ce3f64}{Let’s Keep Explainable Methods Practical and Relevant}}
-	{\textit{Towards Data Science}}
+	{\textnormal{Tramer, F., \dots ,} San Joaquin, A., \textnormal{ et.al.} }
+	{\href{https://arxiv.org/abs/2204.00032}{Truth Serum: Poisoning Machine Learning Models to Reveal Their Secrets}, \textit{arXiv pre-print.}}
 	{}
-	{February 2021}
+	{April 2022}
 	\cvhonor
-	{\href{https://towardsdatascience.com/using-deep-learning-to-detect-ncov-19-from-x-ray-images-1a89701d1acd}{Using Deep Learning to Detect Pneumonia caused by COVID-19}}
-	{\textit{Towards Data Science}}
+	{}
+	{\textit{\href{https://towardsdatascience.com/using-deep-learning-to-detect-ncov-19-from-x-ray-images-1a89701d1acd}{Using Deep Learning to Detect Pneumonia caused by COVID-19} Towards Data Science}}
 	{}
 	{March 2020}
-	\cvhonor
-	{\href{https://medium.com/swlh/three-things-i-learned-from-creating-fake-faces-using-ai-fc4c95282a37}{Three Things I learned from Creating Fake Faces Using A.I.}}
-	{\textit{The Startup}}
-	{}
-	{January 2020}
 \end{cvhonors}
+
+\cvsection{Press}
+\begin{cvhonors}
+	\cvhonor
+	{\href{https://www.theregister.com/2022/04/12/machine_learning_poisoning/}{Machine learning models leak personal info if training data is compromised}}
+	{\textit{The Register}}
+	{}
+	{April 2022}
+\end{cvhonors}
+
+\cvsection{Skills}
+\vspace{-3mm}
+\begin{cventries}
+	\cventry
+	{}
+	{\def\arraystretch{1.15}{\begin{tabular}{ l l }
+		Programming Languages:  & {\skill{ Python, Java, R}} \\
+		Machine Learning in Python:  & {\skill{ Pytorch, Pytorch Lightning, NumPy, Sickit-Learn, Tensorflow, Keras, Jax}} \\
+		Data Management:  & {\skill{ Pandas, SQL, MS Excel}} \\
+		Application Deployment \& \\
+		Version Control:  & {\skill{ Docker, Google Cloud, Git, Singularity}} \\
+		\end{tabular}}}
+	{}
+	{}
+	{}
+\end{cventries}
+
 \vspace{-20mm}
 \ 
 \end{document}
