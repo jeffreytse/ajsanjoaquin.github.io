@@ -3,8 +3,12 @@ layout: post
 title: My Core Values
 date:   2022-05-05
 ---
-I have three values for work, informed by my past experiences, but it is usually applicable to my life broadly.
 
+<p style="text-align: center;">I say unto you: one must still have chaos in oneself to be able to give birth to a dancing star.</p>
+<p style="text-align: center;"> Nietzsche in <em> Thus Spoke Zarathustra </em> </p>
+<br>
+I have three values for work, informed by my past experiences, but it is usually applicable to my life broadly.
+ 
 ### We Need A Diverse Group of People To Get Quality Products
 Each one of us holds identities around different dimensions of our lives (e.x. race, culture, gender, nationality). When we have a group of people holding combinations of such identites working on the same mission, we tend to find ways of reaching our end goal to be superior to groups holding a single combination of such identities. I believe the former group works better because they have more knowledge relevant to the problem at hand compared to the latter group. Diverse groups lead to diverse and beneficial ideas.
 
