@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2020.5.13)  1 NOV 2022 23:00
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2020.5.13)  4 NOV 2022 10:04
 entering extended mode
 **"c:/Users/reneg/ajsanjoaquin.github.io/lol/San Joaquin, Resume.tex"
 ("c:/Users/reneg/ajsanjoaquin.github.io/lol/San Joaquin, Resume.tex"
@@ -709,34 +709,34 @@ LaTeX Info: Redefining \nameref on input line 64.
 \openout3 = `"San Joaquin, Resume.out"'.
 
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 10.00107pt on input line 87.
+(Font)              scaled to size 10.00107pt on input line 88.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 7.00075pt on input line 87.
+(Font)              scaled to size 7.00075pt on input line 88.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 5.00053pt on input line 87.
+(Font)              scaled to size 5.00053pt on input line 88.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 9.99893pt on input line 87.
+(Font)              scaled to size 9.99893pt on input line 88.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 6.99925pt on input line 87.
+(Font)              scaled to size 6.99925pt on input line 88.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 87.
+(Font)              scaled to size 4.99947pt on input line 88.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/sl' in size <9> not available
-(Font)              Font shape `TU/SourceSansPro(2)/m/it' tried instead on input line 87.
+(Font)              Font shape `TU/SourceSansPro(2)/m/it' tried instead on input line 88.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/sl' in size <8> not available
-(Font)              Font shape `TU/SourceSansPro(2)/m/it' tried instead on input line 87.
+(Font)              Font shape `TU/SourceSansPro(2)/m/it' tried instead on input line 88.
 
-Overfull \hbox (55.75648pt too wide) in paragraph at lines 212--212
+Overfull \hbox (55.75648pt too wide) in paragraph at lines 213--213
 [][][]|  
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 216.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 217.
 [1
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 216.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 217.
  ("San Joaquin, Resume.aux")
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 216.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 216.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 217.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 217.
 Package rerunfilecheck Info: File `"San Joaquin, Resume".out' has not changed.
 (rerunfilecheck)             Checksum: .
  ) 
@@ -749,4 +749,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  50i,15n,109p,875b,469s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on San Joaquin, Resume.xdv (1 page, 42592 bytes).
+Output written on San Joaquin, Resume.xdv (1 page, 42632 bytes).
