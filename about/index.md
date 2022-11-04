@@ -9,7 +9,7 @@ title: About
   style="margin: 10px 30px 10px 10px;">
 </p>
 
-Hey! Welcome to my website. I am broadly interested in making the benefits of Artificial Intelligence (AI) accessible to the most number of people while preventing it from further harming marginalized groups. My overarching project is to use and develop AI technology and governance for positive social and environmental change. Curious? Check out my [Values](/values.md) page. Since benefits are not fully enjoyed and applied when it is not understood, I make it a crucial priority to communicate my work to people from different backgrounds through [Medium](https://medium.com/@ajsanjoaquin).
+Hey! Welcome to my website. I am broadly interested in making the benefits of Artificial Intelligence (AI) accessible to the most number of people while preventing it from further harming marginalized groups. My overarching project is to use and develop AI technology and governance for positive social and environmental change. Curious? Check out my [Values](/values/values) page. Since benefits are not fully enjoyed and applied when it is not understood, I make it a crucial priority to communicate my work to people from different backgrounds through [Medium](https://medium.com/@ajsanjoaquin).
 
 In my free time, I am a Senior undergrad at Yale-NUS working on the intersection of Safety and Ethics of AI.
 I am working on these issues specifically for Deep Learning models @ Data Privacy and Trustworthy Machine Learning Research Lab, NUS led by Prof. Reza Shokri.
