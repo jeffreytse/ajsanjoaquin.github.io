@@ -2,7 +2,7 @@ baseurl:
 title: Tufte-Jekyll
 subtitle: Content-centric blogging
 author: ayrton san joaquin
-simple_search: https://machinelearning.sg/coder/ajsanjoaquin
+simple_search:
 description: A Jekyll theme for content-rich sites
 name: tufte
 markdown: kramdown
