@@ -1,11 +1,13 @@
 # Fdb version 3
-["xdvipdfmx"] 1667767698 "San Joaquin, Resume.xdv" "San Joaquin, Resume.pdf" "San Joaquin, Resume" 1667767699
-  "San Joaquin, Resume.xdv" 1667767698 42760 4ead797d8b7a557918df7de8a31e7831 "xelatex"
+["xdvipdfmx"] 1669154402 "San Joaquin, Resume.xdv" "San Joaquin, Resume.pdf" "San Joaquin, Resume" 1669154402
+  "San Joaquin, Resume.xdv" 1669154401 43188 a49204d7584f98070fc6893717664c75 "xelatex"
   (generated)
   "San Joaquin, Resume.pdf"
-["xelatex"] 1667767694 "c:/Users/reneg/ajsanjoaquin.github.io/lol/San Joaquin, Resume.tex" "San Joaquin, Resume.xdv" "San Joaquin, Resume" 1667767699
+["xelatex"] 1669154397 "c:/Users/reneg/ajsanjoaquin.github.io/lol/San Joaquin, Resume.tex" "San Joaquin, Resume.xdv" "San Joaquin, Resume" 1669154402
   "C:/Users/reneg/AppData/Local/MiKTeX/2.9/miktex/data/le/xetex/xelatex.fmt" 1589368998 16378568 119186d3275c118f33b007e5e384b63a ""
   "C:/Users/reneg/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136743454 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
+  "C:/Users/reneg/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmmi6.tfm" 1136765053 1512 f21f83efb36853c0b70002322c1ab3ad ""
+  "C:/Users/reneg/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmmi9.tfm" 1136765053 1524 d89e2d087a9828407a196f428428ef4a ""
   "C:/Users/reneg/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmr10.tfm" 1136765053 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
   "C:/Users/reneg/AppData/Local/Programs/MiKTeX 2.9/tex/generic/ifxetex/ifxetex.sty" 1284257189 1458 43ab4710dc82f3edeabecd0d099626b2 ""
   "C:/Users/reneg/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/etexcmds.sty" 1564406271 7612 729a8cc22a1ee0029997c7f74717ae05 ""
@@ -74,14 +76,14 @@
   "C:/Users/reneg/AppData/Local/Programs/MiKTeX 2.9/tex/latex/xcolor/xcolor.sty" 1463131981 57049 34128738f682d033422ca125f82e5d62 ""
   "C:/Users/reneg/AppData/Local/Programs/MiKTeX 2.9/tex/latex/xifthen/xifthen.sty" 1448274436 5689 1bfa68243e89a54479e7d0580773c57e ""
   "C:/Users/reneg/AppData/Local/Programs/MiKTeX 2.9/tex/xelatex/xetexconfig/geometry.cfg" 1169251881 322 f4a6234bc28bf70659404393c15d3854 ""
-  "San Joaquin, Resume.aux" 1667767698 646 8e762e3fa6240f6f8fe2e9db6cd33e0e "xelatex"
-  "San Joaquin, Resume.out" 1667767698 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
-  "San Joaquin, Resume.tex" 1667767630 8173 31c09deae36ef59409779466c9455ccf ""
+  "San Joaquin, Resume.aux" 1669154401 646 8e762e3fa6240f6f8fe2e9db6cd33e0e "xelatex"
+  "San Joaquin, Resume.out" 1669154401 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
+  "San Joaquin, Resume.tex" 1669154394 8190 236f055dfbee462bca04e3b2e064b41d ""
   "awesome-cv.cls" 1667339935 23247 c93e6b39ecca750721e8a9dedd4f068d ""
-  "c:/Users/reneg/ajsanjoaquin.github.io/lol/San Joaquin, Resume.tex" 1667767630 8173 31c09deae36ef59409779466c9455ccf ""
+  "c:/Users/reneg/ajsanjoaquin.github.io/lol/San Joaquin, Resume.tex" 1669154394 8190 236f055dfbee462bca04e3b2e064b41d ""
   "fontawesome.sty" 1641958115 84729 355f16a7bd7ed1782c4e1f3a0b78b931 ""
   (generated)
-  "San Joaquin, Resume.aux"
+  "San Joaquin, Resume.out"
   "San Joaquin, Resume.log"
   "San Joaquin, Resume.xdv"
-  "San Joaquin, Resume.out"
+  "San Joaquin, Resume.aux"
