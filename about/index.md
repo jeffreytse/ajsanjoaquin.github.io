@@ -23,3 +23,5 @@ I enjoy the outdoors: doing either cycling, hiking, or walking 6 feet *above* th
 I also enjoy performing music on either the keyboard, vocals, or both. You can find concerts involving my bands Arkipelago (2019) [here](https://youtu.be/IDWpC1mmqNs?t=2975) and Sketchy White Van (2022) [here](https://youtu.be/qGI2ng3u13o?t=1437).
 
 I'm also a yOuTubEr, making scripts (and doing data science?!) for [808CJK](https://www.youtube.com/c/808CJK).
+
+Finally, I have a love of history and staying up to date about the state of affairs. In the far past, [I represented the Philippines](https://globalnation.inquirer.net/142283/ph-places-5th-in-intl-history-olympiad-medal-count) in the International History Olympiad. 
