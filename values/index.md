@@ -24,4 +24,4 @@ Every solution has its cons. Applying technology in the real world is not object
 For example, making a model copy your company's hiring patterns seems to be a neutral goal until you discover that it is biased against women, like [Amazon's recruiment tool](https://www.reuters.com/article/us-amazon-com-jobs-automation-insight-idUSKCN1MK08G). **Both solutions and goals can be changed, and one needs to think critically to know when it must be done**.
 
 ## Contact Me
-If you believe we can benefit from an opportunity given these values, please reach out to me at \[first_name\] $$\alpha \tau$$ u.yale-nus.edu.sg
+If you believe we can benefit from an opportunity given these values, please reach out to me at \[first_name\]@aya.yale.edu

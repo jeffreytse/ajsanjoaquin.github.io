@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.2) (preloaded format=xelatex 2021.9.19)  16 JUN 2023 15:40
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.2) (preloaded format=xelatex 2021.9.19)  20 AUG 2023 14:12
 entering extended mode
 **"c:/Users/reneg/ajsanjoaquin.github.io/lol/San Joaquin, Resume.tex"
 (c:/Users/reneg/ajsanjoaquin.github.io/lol/San Joaquin, Resume.tex
@@ -596,15 +596,15 @@ able
 (Font)              Font shape `TU/SourceSansPro(2)/m/it' tried instead on inpu
 t line 86.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 9.00096pt on input line 184.
+(Font)              scaled to size 9.00096pt on input line 183.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 6.00064pt on input line 184.
+(Font)              scaled to size 6.00064pt on input line 183.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 8.99904pt on input line 184.
+(Font)              scaled to size 8.99904pt on input line 183.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 5.99936pt on input line 184.
+(Font)              scaled to size 5.99936pt on input line 183.
 
-Overfull \hbox (164.23352pt too wide) in paragraph at lines 222--222
+Overfull \hbox (164.23352pt too wide) in paragraph at lines 221--221
 [][][]|  
  []
 
@@ -620,7 +620,7 @@ Package rerunfilecheck Info: File `"San Joaquin, Resume".out' has not changed.
 Here is how much of TeX's memory you used:
  17897 strings out of 411732
  311769 string characters out of 2836994
- 808955 words of memory out of 3000000
+ 807955 words of memory out of 3000000
  37635 multiletter control sequences out of 15000+200000
  406097 words of font info for 101 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
