@@ -13,7 +13,7 @@ Hey! I am broadly interested in making the benefits of Artificial Intelligence (
 
 In my free time, I am a researcher at the French National Centre for Scientific Research (CNRS). My current research interests are in the alignment and monitoring of large language models (LLMs). I have adjacent interests in data privacy and AI for healthcare, and I have extensive experience spanning both Computer Vision and Natural Language Processing. 
 
-I graduated from Yale-NUS College in 2023, having spent a semester at the University of Copenhagen. My bachelor's thesis was on data privacy & data poisoning, and I was advised by Reza Shokri & Michael Choi. [I published a part of it in ACM CCS'22](https://dl.acm.org/doi/abs/10.1145/3548606.3560554). A part of that work is also [featured](https://www.theregister.com/2022/04/12/machine_learning_poisoning) by *The Register*.
+I graduated from Yale-NUS College, having spent a semester at the University of Copenhagen. My bachelor's thesis was on data privacy & data poisoning, and I was advised by Reza Shokri & Michael Choi. [I published a part of it in ACM CCS'22](https://dl.acm.org/doi/abs/10.1145/3548606.3560554). A part of that work is also [featured](https://www.theregister.com/2022/04/12/machine_learning_poisoning) by *The Register*.
 
 You can find my CV [here](https://ajsanjoaquin.github.io/lol/San%20Joaquin%2C%20Resume.pdf).
 
