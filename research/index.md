@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Research Directions
-date:   2023-08-09
+date:   2023-11-20
 ---
 
 My fundamental career goal is to make AI systems trustworthy. My fundamental research goal is to discover knowledge to do so. This research goal involves / will involve me in different fields of AI research, including Interpretability, Alignment, Governance, and Safety. Below are questions I have worked on or will work on connected to my mission.
@@ -30,6 +30,29 @@ For <ins> all of us </ins> to trust these systems, we need the participation of 
 For all the potential of these Systems to persuade and manipulate, it must be used to depolarize and regain consensus on which sources of information we as a society value. Researchers seek to align AI systems, but **align them to whose interests?** I believe that it must be to the public interest over everything else. Current alignment techniques assumes that humans have a homogenous set of values. I am interested in efforts that replace such techniques that account for value uncertainties and different value systems, along with repurposing these current alignment techniques for consensus building, [such as this work that uses AI systems that can find consensus given diverse preferences](https://arxiv.org/abs/2211.15006).
 
 ### How can AI Systems trust us?
-I believe trust is a two-way relationship. From a practical perspective, given that they will eventually become more powerful than us in many ways, it is important to maintain their trust that our human preferences should still be their preferences too. From a principled perspetive, it is important to avoid inflicting harm whenever we can. **Do AI systems, especially those designed as agents, have moral worth?** In what level of complexity do they deserve such worth? When can systems develop prerequisites for moral worth, such as desires, complex reasoning, and experiencing pleasure & suffering **especially if such properties are completely alien to us and other biological organisms?**
+I believe trust is a two-way relationship. From a practical perspective, given that they will eventually become more powerful than us in many ways, it is important to maintain their trust that our human preferences should still be their preferences too. From a principled perspetive, it is important to avoid inflicting harm whenever we can. **Do AI systems, especially those designed as agents, have moral worth?** 
+In what level of complexity do they deserve such worth? When can systems develop prerequisites for moral worth, such as desires, complex reasoning, and experiencing pleasure & suffering **especially if such properties are completely alien to us and other biological organisms?**
 
 ![](/assets/img/shoggoth.jpg)
+
+### What is this trust for? Beyond a well-functioning human society and Towards Revealing a Hidden Universe
+
+<p style="text-align: center;">"Just as there are odors that dogs can smell and we cannot, as well as sounds that dogs can hear and we cannot, so too there are wavelengths of light we cannot see and flavors we cannot taste.
+
+Why then, given our brains wired the way they are, does the remark “Perhaps there are thoughts we cannot think,” surprise you?
+
+Evolution, so far, may possibly have blocked us from being able to think in some directions; there could be unthinkable thoughts."</p>
+<p style="text-align: center;">    - Richard Hamming in <em> The Unreasonable Effectiveness of Mathematics </em> </p>
+<br>
+
+What is the intelligence in the artificial? In the biological? In ourselves? Of AI agents, of creatures more complicated and primitive, of other people? What is it like to be what we can never be? And how can that lead us to understand intelligent creatures a bit better? AI is finally allowing us to push the frontiers of what we can know of external beings and systems, of transmission of culture and language, of songs older than any of our ancestors. What is it like to unlock a hidden world present in plain sight? What are the repercussions for the study of psychology, gender, linguistics, sociology, biology, and ecology?
+
+<p style="text-align: center;">"These sounds that we can’t hear, this light that we can’t see, how do we even know about these things in the first place? Well, we built tools. We built tools that adapt these things that are outside of our senses, to our human bodies, our human senses.
+
+We can’t hear ultrasonic sound, but you hook a microphone up to an oscilloscope and there it is. You’re seeing that sound with your plain old monkey eyes. We can’t see cells and we can’t see galaxies, but we build microscopes and telescopes and these tools adapt the world to our human bodies, to our human senses.
+
+When Hamming says there could be unthinkable thoughts, we have to take that as “Yes, but we build tools that adapt these unthinkable thoughts to the way that our minds work and allow us to think these thoughts that were previously unthinkable."
+<p style="text-align: center;">    - Bret Victor in <em> The Media for Thinking the Unthinkable </em> </p>
+<br>
+
+There will be things that we will never be able to understand, but we will try to approximate them with the tools we have built. I think this is the biggest benefit of AI. My hope is that AI can help us unlock what we cannot know and do ourselves. And with these constantly-refined principles, unlock wisdom with our newfound powers. 
