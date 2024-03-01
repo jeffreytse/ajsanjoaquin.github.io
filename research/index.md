@@ -35,7 +35,8 @@ In what level of complexity do they deserve such worth? When can systems develop
 
 ![](/assets/img/shoggoth.jpg)
 
-### What is this trust for? Beyond a well-functioning human society and Towards Revealing a Hidden Universe
+### What is this trust for? 
+### Towards Revealing Hidden Worlds
 
 <p style="text-align: center;">"Just as there are odors that dogs can smell and we cannot, as well as sounds that dogs can hear and we cannot, so too there are wavelengths of light we cannot see and flavors we cannot taste.
 
@@ -47,11 +48,7 @@ Evolution, so far, may possibly have blocked us from being able to think in some
 
 What is the intelligence in the artificial? In the biological? In ourselves? Of AI agents, of creatures more complicated and primitive, of other people? What is it like to be what we can never be? And how can that lead us to understand intelligent creatures a bit better? AI is finally allowing us to push the frontiers of what we can know of external beings and systems, of transmission of culture and language, of songs older than any of our ancestors. What is it like to unlock a hidden world present in plain sight? What are the repercussions for the study of psychology, gender, linguistics, sociology, biology, and ecology?
 
-<p style="text-align: center;">"These sounds that we can’t hear, this light that we can’t see, how do we even know about these things in the first place? Well, we built tools. We built tools that adapt these things that are outside of our senses, to our human bodies, our human senses.
-
-We can’t hear ultrasonic sound, but you hook a microphone up to an oscilloscope and there it is. You’re seeing that sound with your plain old monkey eyes. We can’t see cells and we can’t see galaxies, but we build microscopes and telescopes and these tools adapt the world to our human bodies, to our human senses.
-
-When Hamming says there could be unthinkable thoughts, we have to take that as “Yes, but we build tools that adapt these unthinkable thoughts to the way that our minds work and allow us to think these thoughts that were previously unthinkable."
+<p style="text-align: center;">❝These sounds that we can’t hear, this light that we can’t see, how do we even know about these things in the first place? Well, we built tools. We built tools that adapt these things that are outside of our senses, to our human bodies, our human senses. We can’t hear ultrasonic sound, but you hook a microphone up to an oscilloscope and there it is. You’re seeing that sound with your plain old monkey eyes. We can’t see cells and we can’t see galaxies, but we build microscopes and telescopes and these tools adapt the world to our human bodies, to our human senses. When Hamming says there could be unthinkable thoughts, we have to take that as “Yes, but we build tools that adapt these unthinkable thoughts to the way that our minds work and allow us to think these thoughts that were previously unthinkable."❞
 <p style="text-align: center;">    - Bret Victor in <em> The Media for Thinking the Unthinkable </em> </p>
 <br>
 
