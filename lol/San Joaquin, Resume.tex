@@ -59,7 +59,10 @@
   \par % <============================================================== missing in class
 }
 
-
+\usepackage{atbegshi,picture}
+\AtBeginShipout{\AtBeginShipoutUpperLeft{%
+  \put(\dimexpr\paperwidth-1cm\relax,-1.5cm){\makebox[0pt][r]{\framebox{Every colored text is a link.}}}%
+}}
 
 \begin{document}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -70,7 +73,7 @@
 	\vspace{1mm}
 	\headerpositionstyle{\faFlask \href{https://scholar.google.com/citations?user=e4UX388AAAAJ&hl=en}{Scientist \& Software Engineer, Trustworthy AI} | \faPencil \href{https://medium.com/@ajsanjoaquin}{Writer}} \\
 	\vspace{1mm}
-	{\faEnvelope\ ayrton@aya.yale.edu} | \iffalse {\faMobile\ +65 88147588} | \fi {\faMapMarker\ Singapore} | \faGithub\ \href{https://github.com/ajsanjoaquin}{ajsanjoaquin} | {\faLinkedinSquare\ \href{https://www.linkedin.com/in/ajsanjoaquin/}{ajsanjoaquin}}| {\faLink\ \href{http://ajsanjoaquin.github.io/values}{Values}}
+	{\faEnvelope\ ayrton@aya.yale.edu} | \iffalse {\faMobile\ +65 88147588} | \fi {\faMapMarker\ Singapore} | \faGithub\ \href{https://github.com/ajsanjoaquin}{ajsanjoaquin} | {\faLinkedinSquare\ \href{https://www.linkedin.com/in/ajsanjoaquin/}{ajsanjoaquin}}| {\faLegal\ \href{http://ajsanjoaquin.github.io/values}{Values}}
 \end{center}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     Education
