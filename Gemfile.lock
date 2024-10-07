@@ -69,7 +69,7 @@ GEM
     tzinfo-data (1.2023.3)
       tzinfo (>= 1.0.0)
     unicode-display_width (2.4.2)
-    webrick (1.8.1)
+    webrick (1.8.2)
 
 PLATFORMS
   x64-mingw-ucrt
@@ -81,7 +81,7 @@ DEPENDENCIES
   rouge
   tzinfo
   tzinfo-data
-  webrick (~> 1.7)
+  webrick (~> 1.8)
 
 BUNDLED WITH
    2.2.23
